@@ -5,7 +5,7 @@ const reactionRoutes = require('./reactionRoutes');
 const thoughtRoutes = require('./thoughtRoutes');
 
 //uses the api routes with these url queries
-router.use('/users', userRoutes);
+router.use('/users, userRoutes');
 router.use('/users, friendRoutes');
 router.use('/thoughts, thoughtRoutes');
 router.use('/thoughts, reactionRoutes');
